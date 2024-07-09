@@ -33,8 +33,8 @@ jobs:
           SDK: ${{ matrix.cfg.sdk }}
           UI: ${{ matrix.cfg.ui }}
           SKIP_BUILD: ${{ matrix.cfg.skip }}
-          GIT_REPO: "https://github.com/gnuton/asuswrt-merlin.ng.git"
-          PROJECT_DIR: "/project/asuswrt-merlin.ng"
+          GIT_REPO: "https://github.com/RikshaDriver/asuswrt-merlin.ng-r8152.git"
+          PROJECT_DIR: "/project/asuswrt-merlin.ng-r8152"
           ARTIFACTS_DIR: "/project/artifacts"
           CHANGELOG_FILE: "/tmp/CHANGELOG"
           PROJECTBASEDIR: "/project" # REMOVE_ME: Fixes https://github.com/SonarSource/sonarcloud-github-action/pull/58
